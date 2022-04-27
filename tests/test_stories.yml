@@ -1,0 +1,43 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: dar info licenciaturas
+  steps:
+  - user: |
+      dame informacion sobre las [licenciaturas](info)
+    intent: dar_info_general
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: dar info calendario
+  steps:
+  - user: |
+      dame informacion sobre el [calendario](info)
+    intent: dar_info_general
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: dar info celex
+  steps:
+  - user: |
+      dame informacion sobre las [celex](info)
+    intent: dar_info_general
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: dar info csh
+  steps:
+  - user: |
+      dame informacion sobre las [csh](info)
+    intent: dar_info_general
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: dar info danza
+  steps:
+  - user: |
+      dame informacion sobre las [danza](info)
+    intent: dar_info_general
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas

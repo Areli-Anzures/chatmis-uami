@@ -1,0 +1,37 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- dar_info_general
+- saludo
+- despedida
+- afirmacion
+- negacion
+entities:
+- info
+- nombre
+responses:
+  utter_default:
+  - text: Lo siento, no entendi lo que dijiste. Recuerda que aún no estoy preparada para para responder cualquier pregunta. Únicamente lo relacionado a la UAMI.
+  utter_saludo:
+  - text: Hola, soy Chatmis, hazme una pregunta.
+  - text: ¡Hola, soy Chatmis y estoy para ayudarte!
+  - text: Soy Chatmis, puedo ayudarte en lo que necesites :D
+  - text: Hola!! soy Chatmis, puedo darte resultados sobre profesores, alumnos, sistemas escolares, etc. Será un placer para mi poder atenderte el día de hoy.
+  utter_despedida:
+  - text: Bye, estaré para ayudarte cuando lo necesites
+  - text: Hasta pronto, vuelve cuando tengas una pregunta
+  - text: Que tengas un bonito día, vuelve pronto
+  - text: Adíos, espero haberte podido ayudar
+  utter_necesitas_algo_mas:
+  - text: Si necesitas algo más estoy para ayudarte.
+  - text: Espero que mis respuestas hayan ayudado.
+  - text: Espero haber sido de ayuda. Si deseas algo más estaré pendiente.
+  - text: Ojalá que mis servicios te hayan sido de ayuda.
+actions:
+- action_dar_info_general
+- utter_despedida
+- utter_necesitas_algo_mas
+- utter_saludo
+- utter_default

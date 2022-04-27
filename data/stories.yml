@@ -1,0 +1,333 @@
+version: "2.0"
+
+stories:
+
+- story: hola_adios
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+  - intent: despedida
+  - action: utter_despedida
+
+- story: info general 1
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: seminarios
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+- story: info general 2
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: celex
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 3
+  steps:
+  - intent: dar_info_general
+    entities:
+    - nombre: Areli
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 4
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: cbs
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 5
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: cbi
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 6
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: csh
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 7
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: titulo
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 8
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: credencial
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 9
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: biblioteca
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 10
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: posgrado
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 11
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: becas
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 12
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: crecencial
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 13
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: calculo
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 14
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: alumnos
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 15
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: egresados
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 16
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: laboratorios
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 17
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: publicaciones
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 18
+  steps:
+  - intent: dar_info_general
+    entities:
+    - nombre: eric
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 19
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: calendario
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 20
+  steps:
+  - intent: dar_info_general
+    entities:
+    - nombre: alfonso
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 21
+  steps:
+  - intent: dar_info_general
+    entities:
+    - nombre: Miguel 
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 22
+  steps:
+  - intent: dar_info_general
+    entities:
+    - nombre: Angel
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+
+- story: info general 23
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: electronica
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 24
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: biomedica
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+
+- story: info general 25
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: ccomputacion
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 26
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: historia
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 27
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: filosofia
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 28
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: publicaiones
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 29
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: baja definitiva
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 30
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: cambio de carrera
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+- story: interactive_story_1
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: celex
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: interactive_story_1
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: celex
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+  - intent: dar_info_general
+    entities:
+    - info: danza
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+  - intent: dar_info_general
+    entities:
+    - info: becas
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 31
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: david
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 32
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: csistemas escolares
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 33
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: quinta oportunidad
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 34
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: avisos
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 35
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: libros
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+- story: info general 36
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: dictamen
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas
+
+
+- story: info general 37
+  steps:
+  - intent: dar_info_general
+    entities:
+    - info: unidad iztapalapa
+  - action: action_dar_info_general
+  - action: utter_necesitas_algo_mas

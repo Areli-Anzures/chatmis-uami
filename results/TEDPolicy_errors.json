@@ -1,0 +1,62 @@
+[
+  {
+    "text": "dame informacion sobre las licenciaturas",
+    "entities": [
+      {
+        "start": 27,
+        "end": 40,
+        "value": "licenciaturas",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dame informacion sobre el calendario",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "calendario",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dame informacion sobre las celex",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "celex",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dame informacion sobre las csh",
+    "entities": [
+      {
+        "start": 27,
+        "end": 30,
+        "value": "csh",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dame informacion sobre las danza",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "danza",
+        "entity": "info"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: decir adios cuando el usuario diga adios
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: decir hola cuando el usuario salude
+  steps:
+  - intent: saludo
+  - action: utter_saludo

@@ -1,0 +1,117 @@
+version: "2.0"
+nlu:
+- intent: dar_info_general
+  examples: |
+    - necesito informacion de los [seminarios](info)
+    - quiero saber sobre los [seminarios](info)
+    - información sobre [Plan de estudios](info)
+    - información sobre [calendario](info)
+    - información sobre [celex](info)
+    - quiero saber sobre el [celex](info)
+    - información sobre [biblioteca](info)
+    - quiero saber sobre la división [cbi](info)
+    - dame infor sobre [CBI](info)
+    - dame infor sobre [dictamen](info)
+    - dame infor sobre [libros](info)
+    - que es la [unidad iztapalapa](info)
+    - [unidad iztapalapa](info)
+    - informacion sobre el [PEER](info)
+    - información sobre [laboratorios](info)
+    - información sobre [egresados](info)
+    - información sobre [alumnos](info)
+    - información sobre [publicaciones](info)
+    - quien es [Areli](nombre)
+    - dame informacion sobre [Eric Rincón](nombre)
+    - [Enrique](nombre)
+    - [Miguel](nombre)
+    - [david](nombre)
+    - [juan](nombre)
+    - [Miguel Angel](nombre)
+    - quiero saber sobre los [avisos]
+    - dame info sobre las [clases] de la unidad
+    - profesora [Graciela](nombre)
+    - info sobre los [sistemas escolares](info)
+    - información sobre [aula digital](info)
+    - quiero saber que necesito para la [quinta oportunidad]
+    - información sobre [filosofia](info)
+    - profesor [Alfonso](nombre)
+    - Dr. [Omar](nombre)
+    - Dr. [Eric](nombre)
+    - [Julio](nombre)
+    - dame informacion sobre [cbs](info)
+    - dame informacion sobre [correo](info)
+    - dame informacion sobre [correo institucional](info)
+    - dame informacion sobre [informe](info)
+    - quiero saber sobre la division [CBS](info)
+    - información sobre [constancias](info)
+    - como hago mi [baja](info)?
+    - como se hace la [baja definitiva](info)?
+    - información sobre lic. en [biomedica](info)
+    - ingenieria en [biomedica](info)
+    - [firma de titulo](info)
+    - donde realizo la [firma de titulo](info)
+    - información sobre [credencial](info)
+    - información sobre [CSH](info)
+    - dame informacion sobre la division [csh](info)
+    - información sobre [certificado total](info)
+    - información sobre [ingeniería](info)
+    - información sobre [física](info)
+    - información sobre [Antropología social](info)
+    - información sobre [Geografía humana](info)
+    - donde se hacen las [encuestas](info)?
+    - ¿Cuándo se realiza la [inscripción](info)?
+    - cuando se realiza la [inscripción](info)
+    - quiero una [rectificación](info) de califiación
+    - necesito [rectificar mi calificación](info)
+    - [revisón de califiación](info)
+    - [revisión](info)
+    - información del [seguro](info)
+    - informacion del [IMss](info)
+    - información sobre [titulacion](info)
+    - info [titulación](info)
+    - informacion sobre [celex](info)
+    - [celex](info)
+    - dame informacion sobre [celex](info)
+    - informacion [danza](info)
+    - necesito que me des informacion sobre las [becas](info)
+- intent: saludo
+  examples: |
+    - hey
+    - hola
+    - hi
+    - que tal
+    - buenos días
+    - buenas tardes
+    - buenas
+    - que onda
+    - buenosdías
+    - buenosdias
+    - holis
+- intent: despedida
+  examples: |
+    - bye
+    - adios
+    - hasta pronto
+    - nos vemos
+    - chau
+    - adios gracias
+    - gracias
+- intent: afirmacion
+  examples: |
+    - si
+    - s
+    - claro
+    - SI
+    - correcto
+    - sip
+    - sipi
+- intent: negacion
+  examples: |
+    - no
+    - n
+    - nunca
+    - no lo creo
+    - jamás
+    - NO
+    - nop
+    - nopi
